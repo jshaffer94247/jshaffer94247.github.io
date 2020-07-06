@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>J. Shaffer</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+
+<style>
+        .github {
+            background-image: url('images/github.png');
+            background-repeat: no-repeat;
+            padding-left: 30px;
+            padding-bottom: 20px;
+            padding-right: 30px;
+            padding-top: 4px;
+        }
+        .github > a {
+            color: white;
+        }
+        .linkedin {
+            background-image: url('images/linkedin.png');
+            background-repeat: no-repeat;
+            padding-left: 30px;
+            padding-bottom: 20px;
+            padding-right: 30px;
+            padding-top: 5px;
+        }
+        .linkedin > a {
+            color: white;
+        }
+        .email {
+            background-image: url('images/mail.png');
+            background-repeat: no-repeat;
+            padding-left: 38px;
+            padding-bottom: 20px;
+            padding-right: 30px;
+        }
+        .email > a {
+            color: white;
+        }
+        @media only screen and (min-width: 768px) {
+            #lead-content h1 {
+                font-size: 3.5em;
+            }
+            #lead-content h2 {
+                font-size: 2em;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            #lead-content h1 {
+                font-size: 2em;
+            }
+            #lead-content h2 {
+                font-size: 1.3em;
+            }
+        }
+        #lead-content {
+            position: relative;
+        }
+    </style>
+
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Jamie Shaffer</h1>
+            <h2>Data Scientist</h2>
+            <!-- <a href="#" class="btn-rounded-white">Download Resume</a> -->
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Data Analysis</li>
+            <li>Regression</li>
+            <li>Classification</li>
+            <li>Imaging</li>
+            <li>Object Detection</li>
+            <li>Keras</li>
+            <li>TensorFlow</li>
+            <li>SQL</li>
+            <li>C / C++</li>
+			<li>Tableau</li>
+            <li>Data Visualization</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+
+    <div id="about" style="background: #e4e4e4">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-8">
+                    <p>
+                      I am a Data Scientist building on a foundation in electrical engineering and computer science. I enjoy solving technical mysteries, exploring data, designing experiments, and solving problems through a combination of investigation and innovation.
+                    </p>
+                    <br>
+                    <p>
+                      Areas of interest and expertise: CMOS image sensors, image classification, object detection, deep learning. Experienced innovator with patents in hardware image systems and algorithms.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="center-block" src="images/jls.jpg" style="border-radius: 20%; padding-bottom: 20px;" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/flood-depths.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Extracting Flood Depths From Images</h3>
+                        <p>
+                            Some of the earliest reports on flooding conditions appear in the form of images on social media and on news programs. Can we estimate flood depths from images alone?
+                        </p>
+                        <a href="https://github.com/jshaffer94247/Extracting-Flood-Depths-From-Imagery">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/nlp-games.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Comparing Game Communities by Text Analysis</h3>
+                        <p>
+                            Reddit is a popular platform for diverse communities to announce, explore and debate. Are there insights into the differences in game communities to be found in these posts?
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/disease-outbreaks.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Mapping Disease Outbreaks</h3>
+                        <p>
+                            Before an outbreak is declared, there are early indications in the news. What diseases were in the news in 2017, and is there any indication any of these constitute an outbreak?
+                        </p>
+                        <a href="https://github.com/jshaffer94247/data-science-portfolio/tree/master/projects/discovering-disease-outbreaks">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+
+    <div id="contact" style="background: #646464">
+        <h2>Contact Me</h2>
+        <br>
+        <span class="github"><a href="https://github.com/jshaffer94247"><i class="fa fa-github" aria-hidden="true">  GitHub</i></a></span>
+
+        <span class="linkedin"><a href="https://www.linkedin.com/in/jshaffer94247/"><i class="fa fa-linkedin" aria-hidden="true">  Linkedin</i></a></span>
+
+        <span class="email"><a href="mailto:jshaffer94247@frontier.com">jshaffer94247 @ frontier.com</a></span>
+
+        <div class="top">
+          <span id="to-top" style="border: 3px solid #fff">
+              <i class="fa fa-chevron-up" style="color: #fff" aria-hidden="true"></i>
+          </span>
+        </div>
+    </div>
+    <!-- End #contact -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
